@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #d38312;
+  background: linear-gradient(to right, #a83279, #d38312);
+  height: 100vh;
+
+  .todolistContainer {
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    h1 {
+      font-size: 19px;
+      text-align: left;
+    }
+    & .formContainer {
+    }
+  }
+}

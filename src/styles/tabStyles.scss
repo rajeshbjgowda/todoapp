@@ -1,0 +1,28 @@
+.listContainer {
+  height: 200px;
+  overflow: auto;
+  padding-right: 5px;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgb(224, 219, 219);
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #817f7f;
+  }
+  .listItem {
+    background-color: #f4f6f7;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+  }
+}
